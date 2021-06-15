@@ -2,6 +2,7 @@ try:
     from PIL import Image
 except ImportError:
     import Image
+
 import pytesseract  
 
 
@@ -15,4 +16,4 @@ def ocr_core(filename):
 	return text
 
 
-print(ocr_core('src/images/Img_13_1.jpg'))
+#print(ocr_core('src/images/Img_13_1.jpg'))
