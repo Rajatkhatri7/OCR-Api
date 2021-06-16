@@ -52,7 +52,7 @@ def upload_page():
             extracted_text = ocr_core(file)
             
             #postprocessing the output
-            extracted_text = extracted_text.replace("\n" , " ")
+            extracted_text = extracted_text.replace("\n" , "")
             extracted_text = extracted_text.replace("\f" , "")
             # print(extracted_text)
 
